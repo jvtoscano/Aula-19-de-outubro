@@ -4,6 +4,10 @@ function Soma(n1,n2){
 }
 
 function validateSenha(senha){
+    if(senha === undefined){
+        console.log("Ajuste a senha")
+        return
+    }
     const senhaQtd = senha.length;
     if(senhaQtd >= 6){
         console.log("Senha válida")

@@ -1,0 +1,15 @@
+// A função receberá dois valores n1 e n2,
+// e tbm receberá a operação que será realizada no formato de string
+// ex fun(4,6,"soma") = 10
+
+function calculo(n1,n2,op){
+   if(op == "soma"){ 
+    const resultado = n1+n2
+    return resultado
+   }
+
+
+}
+
+    console.log(calculo(1,2,"soma"))
+   

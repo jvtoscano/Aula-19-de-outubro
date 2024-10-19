@@ -1,0 +1,20 @@
+// A função receberá dois valores n1 e n2,
+// e tbm receberá a operação que será realizada no formato de string
+// ex fun(4,6,"soma") = 10
+
+function calc(n1,n2,op){
+    if(op === "soma"){
+        return n1+n2
+    }
+    if(op === "subtração"){
+        return n1-n2
+    }
+    if(op === "divisão"){
+        return n1/n2
+    }
+    if(op === "multiplicação"){
+        return n1*n2
+    }
+}
+
+console.log(calc(2,2,"multiplicação"))
